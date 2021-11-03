@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgba(126, 255, 212, 1);
+}
+
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+
+.align-center{
+    align-items: center;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.mrgn-30{
+    padding: 30px, 0, 30px, 0;
+}
+/*Header Section*/
+header{
+    margin-bottom: 3rem;
+    padding: 1rem;
+    background-color: white;
+}
+
+.brand{
+    font-size: 2rem;
+}
+
+.brand img{
+    width: 50px;
+    margin-right: 1rem;
+}
+
+.toolbar select{
+    width: 150px;
+    margin: 0 .5rem;
+}
+
+.toolbar button{
+    width: 80px;
+}
+/*Main*/
+main{
+    height: 76vh;
+}
+
+/*Grid*/
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+    height: 500px;
+    margin: 60px auto;
+    border: 1px solid #000;
+}
+
+
+ .square{
+     display: flex;
+     justify-content: center;
+     align-items: center;    
+     width: calc(100% / 10);
+     height: (100% / 10);
+     border: 1px solid #000;
+     cursor: pointer;
+ }
+
+ .square-even.clicked{
+     background-color: rgba(100, 149, 237, 1);
+ }
+
+ .square-add.clicked{
+    background-color: rgb(255, 0, 43);
+}
+
+ /*FOOTER Section*/
+ footer{
+    margin-top: 3rem;
+    padding: 1rem;
+    background-color: white;
+}
+ 
